@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FacePilot ML5JS</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+  <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
+</head>
+<body>
+  <div class="layout">
+    <aside class="panel">
+      <h1>FacePilot</h1>
+
+      <div class="group">
+        <h2>Règles</h2>
+        <p>1. Le visage controle gauche/droite.</p>
+        <p>2. Ouvre et maintiens la bouche ouverte pour un boost.</p>
+        <p>3. Evite les asteroides.</p>
+        <p>4. Survie le plus longtemps possible.</p>
+      </div>
+
+      <div id="boost-indicator" class="boost-inactive">Boost: Inactif</div>
+
+      <div id="instructions-box" class="instructions-ok">✓ Détection active</div>
+
+      <div class="group">
+        <h2>Options</h2>
+        <label>Apparition asteroides: <span id="spawn-rate-value"></span></label>
+        <input id="spawn-rate-slider" type="range" min="20" max="100" step="2" value="54" />
+        <p>Plus la valeur est basse, plus les asteroides apparaissent vite.</p>
+      </div>
+
+      <div class="actions">
+        <button id="btn-reset">Recommencer</button>
+        <button id="btn-debug">Mode debug (appuyer sur 'd')</button>
+      </div>
+    </aside>
+
+    <main id="canvas-holder"></main>
+  </div>
+
+  <script src="vehicle.js"></script>
+  <script src="asteroid.js"></script>
+  <script src="sketch.js"></script>
+  <script src="PlayerShip.js"></script>
+</body>
+</html>
