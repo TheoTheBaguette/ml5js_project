@@ -7,7 +7,7 @@ Le jeu est hébergé sur GitHub Pages : https://theothebaguette.github.io/ml5js_
 ## Lien vidéo youtube
 
 lien vers la vidéo : https://youtu.be/nX0B8bfz4so
-
+(Remarque : bug sur la vidéo, à cause du fait que j'ai utilisé un logiciel de capture d'écran qui a du mal à gérer la webcam en même temps)
 ## Lien GitHub du projet réseaux de neuronnes
 
 Lien vers le projet de réseau de neurones associé : https://github.com/TheoTheBaguette/Projet_reseau_de_neurone_Circuit
