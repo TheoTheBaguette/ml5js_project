@@ -2,11 +2,19 @@
 
 ## Hébergement
 
+Le jeu est hébergé sur GitHub Pages : https://theothebaguette.github.io/ml5js_project/
 
-## Vidéo youtube
+## Lien vidéo youtube
 
-## Lien projet réseaux de neuronnes
+lien vers la vidéo : https://youtu.be/nX0B8bfz4so
 
+## Lien GitHub du projet réseaux de neuronnes
+
+Lien vers le projet de réseau de neurones associé : https://github.com/TheoTheBaguette/Projet_reseau_de_neurone_Circuit
+
+## Important
+
+Attendre quelques secondes après le chargement de la page pour que la détection faciale se lance correctement. Si la détection ne fonctionne pas, essayez de rafraîchir la page ou de vérifier les permissions de la webcam.
 
 ## Résumé du jeu
 FacePilot est un jeu d'action où le joueur pilote un vaisseau spatial avec son visage, détecté en temps réel via webcam. L'objectif est de survivre le plus longtemps possible en esquivant des astéroïdes qui descendent vers votre vaisseau.
